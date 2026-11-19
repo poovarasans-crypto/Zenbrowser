@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Create a production frontend build and start Electron with `npm start`. The install step rebuilds SerialPort's native binding for Electron.
+Create a production frontend build and start Electron with `npm start`. The install step rebuilds SerialPort's native binding for Electron. On Windows, that native rebuild requires Python 3 and Visual Studio C++ Build Tools.
 
 ## URL restrictions
 
